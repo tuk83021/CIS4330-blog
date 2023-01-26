@@ -2,7 +2,7 @@
 Short Blog: Gartner insights into Enterprise perspective on Microservices 
 
 
-## Microservices are not always the answer
+## Microservices are not always the right answer
 
 ### What are microservices?
 
