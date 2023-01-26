@@ -52,3 +52,4 @@ Overall, the cost-benefit of microservices should be weighed carefully before ad
 ### Which one is the best?
 
 There is no right or wrong service. Microservices architecture can provide many benefits in software development, but it's important to consider the complexity and management overhead involved before choosing it as a solution. Mini and Macroservices are also good alternatives, depending on the specific requirements of the application.
+Of course, small businesses can use microservice architecture, but it is more expensive to build, deploy and run. Therefore, I don't think it's right to use microservices unless companies have enough money to support them.
