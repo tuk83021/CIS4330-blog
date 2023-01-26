@@ -10,13 +10,18 @@ Microservice architecture is a popular architectural pattern in software develop
 
 Advantages of Microservice architectures include:
 
-Scalability: Microservices can be scaled up or down independently of each other, making it easier to handle increasing traffic or load.
+1. Agility: Microservices are small, independently deployable units that can be developed, tested, and deployed independently of one another. 
 
-Flexibility: Each service can be built and deployed using different technologies, languages, and frameworks, allowing for greater flexibility in choosing the best tools for the job.
+2. Scalability: Microservices can be scaled up or down independently of each other, making it easier to handle increasing traffic or load.
 
-Resilience: If one service goes down, it doesn't necessarily bring down the entire application.
+3. Flexibility: Each service can be built and deployed using different technologies, languages, and frameworks, allowing for greater flexibility in choosing the best tools for the job.
 
-Reusability: Services can be reused across multiple applications, increasing the efficiency of development.
+4. Resilience: If one service goes down, it doesn't necessarily bring down the entire application.
+
+5. Risk reduction: By breaking a large monolithic system into smaller, independent services, the risk of a single service failure impacting the entire system is reduced. Additionally, since microservices are independently deployable, it is easier to roll back or replace a single service if it experiences issues.
+
+6. Technology flexibility: Microservices can be built using different technologies, languages, and frameworks, which allows teams to choose the best tool for the job, rather than being constrained by the technology choices of the entire system.
+
 
 ### What about miniservices and macroservices?
 
@@ -30,10 +35,15 @@ Microservices are appropriate to use when you have a large and complex applicati
 When considering adopting a microservice architecture, there are several factors to consider, including:
 
 1. Complexity: Microservices introduce additional complexity to the system, as each service is a separate entity that needs to be developed, deployed, and maintained.
+
 2. Scalability: Microservices can be individually scaled, which allows for more efficient use of resources. However, this also means that the system as a whole may become more complex to scale.
+
 3. Communication: Microservices need to communicate with each other, which can introduce latency and increase the possibility of failures.
+
 4. Data management: Each microservice has its own database, which can make data management more difficult and requires careful design of the data model and data access.
+
 5. Team organization: Microservices require a high degree of collaboration and communication among teams, which can be challenging in some organizations.
+
 6. Cost: Microservices can be more expensive to develop and maintain, as you will need to set up and manage a larger number of separate services.
 
 Overall, the cost-benefit of microservices should be weighed carefully before adoption and as it requires more investment in terms of development, deployment and maintenance.
