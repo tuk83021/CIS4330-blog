@@ -26,6 +26,19 @@ Miniservices and macroservices are similar to Microservices, but with some diffe
 
 Microservices are appropriate to use when you have a large and complex application with multiple teams working on it, and when you need to scale your application quickly. On the other hand, Miniservices are appropriate to use when you have a small application with a limited number of features and you need to build them quickly. Macroservices are appropriate to use when you have a large application with a lot of functionality and you want to build them with a team of experts.
 
+### What to consdier before adopting microservices?  
+When considering adopting a microservice architecture, there are several factors to consider, including:
+
+1. Complexity: Microservices introduce additional complexity to the system, as each service is a separate entity that needs to be developed, deployed, and maintained.
+2. Scalability: Microservices can be individually scaled, which allows for more efficient use of resources. However, this also means that the system as a whole may become more complex to scale.
+3. Communication: Microservices need to communicate with each other, which can introduce latency and increase the possibility of failures.
+4. Data management: Each microservice has its own database, which can make data management more difficult and requires careful design of the data model and data access.
+5. Team organization: Microservices require a high degree of collaboration and communication among teams, which can be challenging in some organizations.
+6. Cost: Microservices can be more expensive to develop and maintain, as you will need to set up and manage a larger number of separate services.
+
+Overall, the cost-benefit of microservices should be weighed carefully before adoption and as it requires more investment in terms of development, deployment and maintenance.
+
 
 ### Which one is the best?
+
 There is no right or wrong service. Microservices architecture can provide many benefits in software development, but it's important to consider the complexity and management overhead involved before choosing it as a solution. Mini and Macroservices are also good alternatives, depending on the specific requirements of the application.
